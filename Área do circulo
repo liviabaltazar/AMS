@@ -1,9 +1,0 @@
-programa {
-  funcao inicio() {
-    real raio,resultado
-    escreva("Digite raio: ")
-    leia(raio)
-    resultado=3.14*(raio*raio)
-    escreva("A área é:", resultado)
-  }
-}
