@@ -1,9 +1,0 @@
-programa {
-  funcao inicio() {
-    inteiro anos, resultado
-    escreva("Digite anos: ")
-    leia(anos)
-    resultado=anos*365
-    escreva("Aproximadademente:", resultado)
-  }
-}
