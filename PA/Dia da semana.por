@@ -1,0 +1,38 @@
+programa {
+  funcao inicio() {
+    inteiro dia
+
+    escreva("Digite um numero de 1 a 7: ")
+    leia(dia)
+
+      escolha(dia) {
+        caso 1:
+        escreva("Domingo")
+        pare
+        caso 2:
+        escreva("Segunda-feira")
+        pare
+        caso 3:
+        escreva("Terça-feira")
+        pare
+        caso 4:
+        escreva("Quart-feira")
+        pare
+        caso 5:
+        escreva("Quinta-feira")
+        pare
+        caso 6:
+        escreva("Sexta-feira")
+        pare
+        caso 7:
+        escreva("Sabado")
+        pare
+        caso contrario:
+        escreva("Numero invalido")
+
+
+      }
+    }
+    
+  }
+}
